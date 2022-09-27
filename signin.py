@@ -3,10 +3,10 @@ import os
 import re
 
 # hao4k 账户信息
-username = os.environ["HAO4K_USERNAME"]
-password = os.environ["HAO4K_PASSWORD"]
+username = os.environ["AD6711"]
+password = os.environ["AD6711"]
 # 添加 server 酱通知
-sckey = os.environ["SERVERCHAN_SCKEY"]
+sckey = os.environ["SCT173667TMTt7pOakYHWPkc4HjIeUnwQx"]
 send_url = "https://sctapi.ftqq.com/%s.send" % (sckey)
 send_content = 'Server ERROR'
 
